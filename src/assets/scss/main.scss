@@ -47,3 +47,36 @@
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+.github-corner {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0 10px;
+	height: 54px;
+	font-size: 40px;
+	z-index: 9999;
+	border: 0;
+}
+
+.github-corner:hover {
+	background-color: rgba(255,255,255,0.2)
+}
+
+.githubLogo {
+	margin-right: 10px;
+}
+
+.position {
+	display: block;
+	font-weight: bold;
+}
+
+.website {
+	display: block;
+	color: aqua;
+	text-decoration: none;
+	border: 0;
+	line-height: .5;
+	padding-bottom: 20px;
+}

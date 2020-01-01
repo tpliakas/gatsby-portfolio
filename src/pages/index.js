@@ -5,6 +5,9 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
+import { GoLogoGithub } from 'react-icons/go'
+import { GoMarkGithub } from 'react-icons/go'
+
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -108,6 +111,14 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
+          <a
+            href="https://github.com/tpliakas"
+            target="_blank"
+            className="github-corner"
+          >
+            <GoLogoGithub className="githubLogo" />
+            <GoMarkGithub />
+          </a>
           <div id="bg"></div>
         </div>
       </Layout>

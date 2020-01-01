@@ -9,8 +9,7 @@ const Header = props => (
         <h1>Theodore Pliakas</h1>
         <p>
           Frontend Developer & Web Developer
-          <br />
-          Passionate for web technologies
+          <p className="capitalize">Passionate for web technologies</p>
         </p>
       </div>
     </div>
@@ -34,6 +33,16 @@ const Header = props => (
             }}
           >
             Experience
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('education')
+            }}
+          >
+            Education
           </a>
         </li>
         <li>

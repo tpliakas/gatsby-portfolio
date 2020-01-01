@@ -28,29 +28,62 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">About</h2>
+          {/*<span className="image main">*/}
+          {/*  <img src={pic01} alt="" />*/}
+          {/*</span>*/}
+
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Passionate about web technologies and specifically about Web
+            Development.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Currently working as a Frontend Developer using React. In my spare
+            time I develop a full stack application based on MERN Stack (Mongo,
+            Express, React, Node) for my Master Thesis.
+          </p>
+          <p>
+            I'm always highly interested in new web technologies and I
+            constantly keep learning and studying.{' '}
+          </p>
+          <h3>Skills</h3>
+          <hr />
+          <p>
+            HTML, CSS, JavaScript, Bootstrap, PHP, MySQL, NodeJS, ReactJS,
+            Angular, jQuery, Gulp, Amazon Alexa, Git, CodeIgniter, Linux, npm,
+            Docker, Drupal, Magento, Shopify, Wordpress, CS-Cart, Photoshop,
+            Gimp, CPanel, Plesk.
+          </p>
+          <h3>Languages</h3>
+          <hr />
+          <p>
+            Greek - (Native)
+            <br />
+            English - (First Certificate in English, Cambridge University (B2))
+            <br />
+            Dutch - (Beginner (A1 - A2))
+          </p>
+          <h3>Certifications</h3>
+          <hr />
+          <p>
+            <ul>
+              <li>
+                Android development scholarship by Udacity, funding from Google.
+              </li>
+              <li>
+                Introduction to Deep Learning with PyTorch Scholarship by
+                Udacity, funding from Bertelsmann.
+              </li>
+              <li>
+                Google developers certificates - For attending Google Dart
+                Language Workshop & for attending Android Studio SDK Workshop.
+              </li>
+              <li>
+                Several online courses on edx.org, coursera.org, udacity.com,
+                udemy.com.
+              </li>
+              <li> ECDL Core - (7 Modules)</li>
+            </ul>
           </p>
           {close}
         </article>
@@ -62,28 +95,157 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+          <h2 className="major">Experience</h2>
+          {/*<span className="image main">*/}
+          {/*  <img src={pic02} alt="" />*/}
+          {/*</span>*/}
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <h3>Eurobank</h3>
+            <h5>09/2019 - Current</h5>
+            <hr />
+            <p>
+              <span className="position">Frontend Developer</span>
+              <a
+                href="https://eurobank.gr"
+                title="Eurobank"
+                className="website"
+              >
+                eurobank.gr
+              </a>
+              JavaScript, ReactJS,
+              <br />
+              Material UI, Ant Design,
+              <br />
+              Agile, Scrum.
+            </p>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            <h3>SuperUp - eComMarketing Platform</h3>
+            <h5>12/2018 - 08/2019</h5>
+            <hr />
+            <p>
+              <span className="position">Web Developer</span>
+              <a
+                href="https://www.superup.me/"
+                title="SuperUp"
+                className="website"
+              >
+                superup.me
+              </a>
+              ReactJS, Angular2, NodeJS, PHP, PostgreSQL,
+              <br />
+              Magento2, Shopify,
+              <br />
+              Agile, Scrum, Startup environment.
+            </p>
+          </p>
+          <p>
+            <h3>BNSPRO - Web & Mobile Applications</h3>
+            <h5>12/2017 - 11/2018</h5>
+            <hr />
+            <p>
+              <span className="position">Frontend Developer</span>
+              <a href="https://bnspro.gr/" title="Bnspro" className="website">
+                bnspro.gr
+              </a>
+              Responsible mostly for the Front-end part but working with
+              Back-end too.
+              <br />
+              Create custom Drupal 8 themes.
+              <br />
+              Create custom websites using Codedigniter.
+            </p>
+          </p>
+          <p>
+            <h3>SOMON - Office Automation</h3>
+            <h5>04/2015 - 11/2017</h5>
+            <hr />
+            <p>
+              <span className="position">
+                Webmaster, IT Support, Web Developer
+              </span>
+              <a href="https://www.somon.gr/" title="Somon" className="website">
+                somon.gr
+              </a>
+              Management and customization company’s website, newsletters.
+              <br />
+              Web Server administration – WHM / Plesk.
+              <br />
+              Desktop and laptop repairing, technical support on client’s site.
+              <br />
+              Programming & installation of tax mechanisms and tax machines.
+              <br />
+              Remote technical support, networks - routers, computer
+              peripherals.
+              <br />
+              Programming Siemens call centers and PBX.
+            </p>
           </p>
           {close}
         </article>
-
+        <article
+          id="education"
+          className={`${this.props.article === 'education' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Education</h2>
+          {/*<span className="image main">*/}
+          {/*  <img src={pic03} alt="" />*/}
+          {/*</span>*/}
+          <p>
+            <h3>
+              MSc in Aplied Informatics - eBusiness & Innovation Technology
+            </h3>
+            <h5>2016 - 2020</h5>
+            <hr />
+            <p>
+              <span className="position">University of Macedonia</span>
+              IT Infrastructure. <br />
+              Digital Business Strategy. <br />
+              m-Business & e-Commerce Technologies. <br />
+              Web and Mobile Application Development. <br />
+              Advanced Software Engineering. <br />
+              Cloud Technologies and Web Analytics. <br />
+              Innovative e-Business Systems. <br />
+              Digital Marketing & Social Networking.
+            </p>
+          </p>
+          <p>
+            <h3>FrontEnd Developer Nanodegree Program</h3>
+            <h5>2017 - 2018</h5>
+            <hr />
+            <p>
+              <span className="position">Udacity</span>
+              Web foundations. <br />
+              Web programming with Javascript. <br />
+              Exploring JS - Objects Tools and Testing. <br />
+              Front-end applications. <br />
+              Building with React.
+            </p>
+          </p>
+          <p>
+            <h3>BSc in Computer Science & Telecommunications Engineering</h3>
+            <h5>2007 - 2013</h5>
+            <hr />
+            <p>
+              <span className="position">
+                Technological Educational Institute of Thessaly
+              </span>
+              Courses attended available here:{' '}
+              <a
+                href="http://www.cs.teilar.gr/CS/lessons.jsp"
+                className="website"
+                title="Courses"
+                target="_blank"
+              >
+                http://www.cs.teilar.gr/CS/lessons.jsp
+              </a>
+            </p>
+          </p>
+          {close}
+        </article>
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -106,7 +268,6 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
