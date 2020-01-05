@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-portfolio",
   siteMetadata: {
     title: 'Theodore Pliakas - Portfolio',
     author: 'Theodore Pliakas',
