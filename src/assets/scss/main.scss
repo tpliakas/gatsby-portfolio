@@ -4,6 +4,7 @@
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
 /*
 	Dimension by HTML5 UP
@@ -52,19 +53,47 @@
 	position: fixed;
 	top: 0;
 	right: 0;
-	padding: 0 10px;
 	height: 54px;
-	font-size: 40px;
 	z-index: 9999;
 	border: 0;
 }
 
 .github-corner:hover {
-	background-color: rgba(255,255,255,0.2)
+
 }
 
-.githubLogo {
-	margin-right: 10px;
+.github-text {
+	font-family: 'Shadows Into Light', cursive;
+	color: #fff;
+	font-size: 35px;
+	position: absolute;
+	left: -140px;
+	top: 20px;
+	line-height: 30px;
+}
+
+.github-corner:hover .octo-arm {
+	animation:octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+	0%,100% {
+		transform:rotate(0)
+	}
+	20%,60% {
+		transform:rotate(-25deg)
+	}40%,80% {
+		transform:rotate(10deg)
+		 }
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation:none
+	}
+	.github-corner .octo-arm {
+		animation:octocat-wave 560ms ease-in-out
+	}
 }
 
 .position {
@@ -79,4 +108,83 @@
 	border: 0;
 	line-height: .5;
 	padding-bottom: 20px;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio-item {
+	flex: 1 200px;
+	padding: 5px;
+	min-width: 0;
+}
+
+.portfolio img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+
+.contact-first {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.contact-icon {
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+.contact-first-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+#footer a {
+	border: 0;
+}
+
+.footer-icons {
+	margin-bottom: -4px;
+}
+
+.footer-github {
+	padding-left: 5px;
+}
+
+.fa-heart {
+	color: #a31f1f;
+	animation: fa-beat 5s ease infinite;
+}
+
+@keyframes fa-beat {
+	0% {
+		transform: scale(1);
+	}
+	5% {
+		transform: scale(1.25);
+	}
+	20% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1);
+	}
+	35% {
+		transform: scale(1.25);
+	}
+	50% {
+		transform: scale(1);
+	}
+	55% {
+		transform: scale(1.25);
+	}
+	70% {
+		transform: scale(1);
+	}
 }

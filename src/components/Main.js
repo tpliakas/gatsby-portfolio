@@ -1,8 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import '../assets/css/demo.css'
+import '../assets/css/set2.css'
+import { FaEnvelope } from 'react-icons/fa'
+import { FaMobileAlt } from 'react-icons/fa'
+import heavyliftImage from '../images/portfolio-images/heavylift.jpg'
+import lukasImage from '../images/portfolio-images/lukas.jpg'
+import radioArtImage from '../images/portfolio-images/radio.jpg'
+import islandTalesImage from '../images/portfolio-images/island.jpg'
+import manImage from '../images/portfolio-images/man2man.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,10 +35,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          {/*<span className="image main">*/}
-          {/*  <img src={pic01} alt="" />*/}
-          {/*</span>*/}
-
           <p>
             Passionate about web technologies and specifically about Web
             Development.
@@ -96,9 +98,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Experience</h2>
-          {/*<span className="image main">*/}
-          {/*  <img src={pic02} alt="" />*/}
-          {/*</span>*/}
           <p>
             <h3>Eurobank</h3>
             <h5>09/2019 - Current</h5>
@@ -191,9 +190,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Education</h2>
-          {/*<span className="image main">*/}
-          {/*  <img src={pic03} alt="" />*/}
-          {/*</span>*/}
           <p>
             <h3>
               MSc in Aplied Informatics - eBusiness & Innovation Technology
@@ -239,6 +235,7 @@ class Main extends React.Component {
                 className="website"
                 title="Courses"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 http://www.cs.teilar.gr/CS/lessons.jsp
               </a>
@@ -253,19 +250,65 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h2 className="major">Portfolio</h2>
+          <div className="portfolio">
+            <div className="grid">
+              <figure className="effect-ming">
+                <img src={heavyliftImage} alt="heavylift group" />
+                <figcaption>
+                  <h2>
+                    <span>Drupal </span>website
+                  </h2>
+                  <p>Custom theme and modules</p>
+                  <a href="https://www.theheavyliftgroup.com/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={lukasImage} alt="halvas lukas" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://www.lukas.gr">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={radioArtImage} alt="radio art app" />
+                <figcaption>
+                  <h2>
+                    <span>Amazon Alexa </span>application
+                  </h2>
+                  <p>
+                    Radio streaming application for Amazon Alexa enabled devices
+                  </p>
+                  <a href="https://www.amazon.com/gp/product/B07KP3GZ29">
+                    View more
+                  </a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={islandTalesImage} alt="island tales" />
+                <figcaption>
+                  <h2>
+                    <span>CS-Cart </span>eshop
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://www.island-tales.com">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={manImage} alt="man2man eshop" />
+                <figcaption>
+                  <h2>
+                    <span>WooCommerce </span>eshop
+                  </h2>
+                  <p>WordPress / fb / ig</p>
+                  <a href="https://www.man2man.gr">View more</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
           {close}
         </article>
         <article
@@ -276,53 +319,52 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <div className="contact-first">
+            <p className="contact-first-inner">
+              <FaEnvelope className="contact-icon" />
+              <span className="contact-text">thodorispliakas@gmail.com</span>
+            </p>
+            <p className="contact-first-inner">
+              <FaMobileAlt className="contact-icon" />
+              <span className="contact-text">+30 698689 5502</span>
+            </p>
+          </div>
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://www.linkedin.com/in/theodorospliakas/"
+                className="icon fa-linkedin"
               >
-                <span className="label">Twitter</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a
+                href="https://stackoverflow.com/users/7622832/tpliakas"
+                className="icon fa-stack-overflow"
+              >
+                <span className="label">Stack Overflow</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tpliakas" className="icon fa-github">
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/thodoris.pliakas"
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://www.instagram.com/its_pliakas/"
+                className="icon fa-instagram"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Instagram</span>
               </a>
             </li>
           </ul>
