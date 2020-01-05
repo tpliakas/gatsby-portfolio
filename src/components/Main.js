@@ -9,6 +9,21 @@ import lukasImage from '../images/portfolio-images/lukas.jpg'
 import radioArtImage from '../images/portfolio-images/radio.jpg'
 import islandTalesImage from '../images/portfolio-images/island.jpg'
 import manImage from '../images/portfolio-images/man2man.jpg'
+import olympusMarathonImage from '../images/portfolio-images/om.jpg'
+import anpeImage from '../images/portfolio-images/anpe.jpg'
+import beautiflyImage from '../images/portfolio-images/beautifly.png'
+import cicamonImage from '../images/portfolio-images/cicamon.jpg'
+import ekigoImage from '../images/portfolio-images/ekigo.png'
+import evgnosiaImage from '../images/portfolio-images/evgnosia.png'
+import fruitlandImage from '../images/portfolio-images/fruitland.png'
+import halcothermImage from '../images/portfolio-images/halcotherm.png'
+import houseMastersImage from '../images/portfolio-images/housemasters.jpg'
+import lawfirmImage from '../images/portfolio-images/lawfirm.png'
+import stopShopImage from '../images/portfolio-images/stop2shop.png'
+import tsfImage from '../images/portfolio-images/tsftsotsis.png'
+import nightlifeImage from '../images/portfolio-images/demo.nightlifemuseum.com.png'
+import opImage from '../images/portfolio-images/op.jpg'
+import pythagorasImage from '../images/portfolio-images/pythagoras.systems.png'
 
 class Main extends React.Component {
   render() {
@@ -251,6 +266,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Portfolio</h2>
+          <p>Have a look at some of my projects.</p>
           <div className="portfolio">
             <div className="grid">
               <figure className="effect-ming">
@@ -305,6 +321,156 @@ class Main extends React.Component {
                   </h2>
                   <p>WordPress / fb / ig</p>
                   <a href="https://www.man2man.gr">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={olympusMarathonImage} alt="olympus marathon" />
+                <figcaption>
+                  <h2>
+                    <span>Drupal </span>website
+                  </h2>
+                  <p>Custom theme and modules</p>
+                  <a href="https://www.olympus-marathon.com/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={halcothermImage} alt="halcotherm" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://www.halcotherm.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={houseMastersImage} alt="house masters" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://housemasters.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={beautiflyImage} alt="beautifly eshop" />
+                <figcaption>
+                  <h2>
+                    <span>CS-Cart </span>eshop
+                  </h2>
+                  <p>Custom theme</p>
+                  <a href="https://beautyfly.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={ekigoImage} alt="ekigo eshop" />
+                <figcaption>
+                  <h2>
+                    <span>CS-Cart </span>eshop
+                  </h2>
+                  <p>Custom theme</p>
+                  <a href="https://www.ekigo.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={stopShopImage} alt="stop2shop" />
+                <figcaption>
+                  <h2>
+                    <span>CS-Cart </span>B2C & B2B eshop
+                  </h2>
+                  <p>Custom theme</p>
+                  <a href="https://stop2shop.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={tsfImage} alt="tsf-tsotsis" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://tsf-tsotsis.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={anpeImage} alt="anpe" />
+                <figcaption>
+                  <h2>
+                    <span>Drupal </span>website
+                  </h2>
+                  <p>Custom theme</p>
+                  <a href="http://www.anpe.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={cicamonImage} alt="cicamon" />
+                <figcaption>
+                  <h2>
+                    <span>WordPress </span>website
+                  </h2>
+                  <p>Local biological products</p>
+                  <a href="https://cicamon.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={evgnosiaImage} alt="evgnosia papadopoulou" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://evgnosia-papadopoulou.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={lawfirmImage} alt="lawfirm" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="http://lawfirm.com.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={fruitlandImage} alt="fruitland" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="http://fruitland.com.gr/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={pythagorasImage} alt="pythagoras systems" />
+                <figcaption>
+                  <h2>
+                    <span>WordPress </span>website
+                  </h2>
+                  <p>Blockchain website</p>
+                  <a href="https://pythagoras.systems/">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={nightlifeImage} alt="nightlife museum" />
+                <figcaption>
+                  <h2>
+                    <span>Drupal </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={opImage} alt="optimum" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="#">View more</a>
                 </figcaption>
               </figure>
             </div>

@@ -7,7 +7,8 @@ import OctocatImage from '../images/octocat.png'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
-      <i className="fa fa-code" /> with <i className="fa fa-heart" /> using{' '}
+      <i className="fa fa-code" title="Coded" /> with{' '}
+      <i className="fa fa-heart" title="Love" /> using{' '}
       <a
         href="https://reactjs.org/"
         target="_blank"
