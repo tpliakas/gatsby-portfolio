@@ -24,6 +24,9 @@ import tsfImage from '../images/portfolio-images/tsftsotsis.jpg'
 import nightlifeImage from '../images/portfolio-images/demonightlifemuseumcom.jpg'
 import opImage from '../images/portfolio-images/op.jpg'
 import pythagorasImage from '../images/portfolio-images/pythagorassystems.jpg'
+import alphaParkImage from '../images/portfolio-images/alphapark.jpg'
+import pmalandrisImage from '../images/portfolio-images/pmalandris.jpg'
+import mmalandriImage from '../images/portfolio-images/mmalandri.jpg'
 
 class Main extends React.Component {
   render() {
@@ -411,6 +414,36 @@ class Main extends React.Component {
                   </h2>
                   <p>Local biological products</p>
                   <a href="https://cicamon.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={alphaParkImage} alt="alphaPark" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://alphaparking.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={mmalandriImage} alt="mmalandri" />
+                <figcaption>
+                  <h2>
+                    <span>WordPress </span>website
+                  </h2>
+                  <p>Gynecologist</p>
+                  <a href="http://mariamalandri.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={pmalandrisImage} alt="pmalandris" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Civil Engineer</p>
+                  <a href="https://pmalandris.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
