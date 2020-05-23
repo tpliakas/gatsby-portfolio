@@ -24,6 +24,9 @@ import tsfImage from '../images/portfolio-images/tsftsotsis.jpg'
 import nightlifeImage from '../images/portfolio-images/demonightlifemuseumcom.jpg'
 import opImage from '../images/portfolio-images/op.jpg'
 import pythagorasImage from '../images/portfolio-images/pythagorassystems.jpg'
+import alphaParkImage from '../images/portfolio-images/alphapark.jpg'
+import pmalandrisImage from '../images/portfolio-images/pmalandris.jpg'
+import mmalandriImage from '../images/portfolio-images/mmalandri.jpg'
 
 class Main extends React.Component {
   render() {
@@ -276,7 +279,7 @@ class Main extends React.Component {
                     <span>Drupal </span>website
                   </h2>
                   <p>Custom theme and modules</p>
-                  <a href="https://www.theheavyliftgroup.com/">View more</a>
+                  <a href="https://www.theheavyliftgroup.com/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -286,7 +289,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://www.lukas.gr">View more</a>
+                  <a href="https://www.lukas.gr" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -298,7 +301,7 @@ class Main extends React.Component {
                   <p>
                     Radio streaming application for Amazon Alexa enabled devices
                   </p>
-                  <a href="https://www.amazon.com/gp/product/B07KP3GZ29">
+                  <a href="https://www.amazon.com/gp/product/B07KP3GZ29" target="_blank">
                     View more
                   </a>
                 </figcaption>
@@ -310,7 +313,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>eshop
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://www.island-tales.com">View more</a>
+                  <a href="https://www.island-tales.com" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -320,7 +323,7 @@ class Main extends React.Component {
                     <span>WooCommerce </span>eshop
                   </h2>
                   <p>WordPress / fb / ig</p>
-                  <a href="https://www.man2man.gr">View more</a>
+                  <a href="https://www.man2man.gr" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -330,7 +333,7 @@ class Main extends React.Component {
                     <span>Drupal </span>website
                   </h2>
                   <p>Custom theme and modules</p>
-                  <a href="https://www.olympus-marathon.com/">View more</a>
+                  <a href="https://www.olympus-marathon.com/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -340,7 +343,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://www.halcotherm.gr/">View more</a>
+                  <a href="https://www.halcotherm.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -350,7 +353,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://housemasters.gr/">View more</a>
+                  <a href="https://housemasters.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -360,7 +363,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://beautyfly.gr/">View more</a>
+                  <a href="https://beautyfly.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -370,7 +373,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://www.ekigo.gr/">View more</a>
+                  <a href="https://www.ekigo.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -380,7 +383,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>B2C & B2B eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://stop2shop.gr/">View more</a>
+                  <a href="https://stop2shop.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -390,7 +393,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://tsf-tsotsis.gr/">View more</a>
+                  <a href="https://tsf-tsotsis.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -400,7 +403,7 @@ class Main extends React.Component {
                     <span>Drupal </span>website
                   </h2>
                   <p>Custom theme</p>
-                  <a href="http://www.anpe.gr/">View more</a>
+                  <a href="http://www.anpe.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -410,7 +413,37 @@ class Main extends React.Component {
                     <span>WordPress </span>website
                   </h2>
                   <p>Local biological products</p>
-                  <a href="https://cicamon.gr/">View more</a>
+                  <a href="https://cicamon.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={alphaParkImage} alt="alphaPark" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Custom theme and development</p>
+                  <a href="https://alphaparking.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={mmalandriImage} alt="mmalandri" />
+                <figcaption>
+                  <h2>
+                    <span>WordPress </span>website
+                  </h2>
+                  <p>Gynecologist</p>
+                  <a href="http://mariamalandri.gr/" target="_blank">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={pmalandrisImage} alt="pmalandris" />
+                <figcaption>
+                  <h2>
+                    <span>CodeIgniter </span>website
+                  </h2>
+                  <p>Civil Engineer</p>
+                  <a href="https://pmalandris.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -420,7 +453,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://evgnosia-papadopoulou.gr/">View more</a>
+                  <a href="https://evgnosia-papadopoulou.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -430,7 +463,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="http://lawfirm.com.gr/">View more</a>
+                  <a href="http://lawfirm.com.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -440,7 +473,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="http://fruitland.com.gr/">View more</a>
+                  <a href="http://fruitland.com.gr/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -450,7 +483,7 @@ class Main extends React.Component {
                     <span>WordPress </span>website
                   </h2>
                   <p>Blockchain website</p>
-                  <a href="https://pythagoras.systems/">View more</a>
+                  <a href="https://pythagoras.systems/" target="_blank">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
