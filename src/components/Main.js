@@ -27,6 +27,8 @@ import pythagorasImage from '../images/portfolio-images/pythagorassystems.jpg'
 import alphaParkImage from '../images/portfolio-images/alphapark.jpg'
 import pmalandrisImage from '../images/portfolio-images/pmalandris.jpg'
 import mmalandriImage from '../images/portfolio-images/mmalandri.jpg'
+import rentCarImage from '../images/portfolio-images/rentacar.jpg'
+import okruzenjeImage from '../images/portfolio-images/okruzenje.jpg'
 
 class Main extends React.Component {
   render() {
@@ -279,17 +281,17 @@ class Main extends React.Component {
                     <span>Drupal </span>website
                   </h2>
                   <p>Custom theme and modules</p>
-                  <a href="https://www.theheavyliftgroup.com/" target="_blank">View more</a>
+                  <a href="https://www.theheavyliftgroup.com/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
                 <img src={lukasImage} alt="halvas lukas" />
                 <figcaption>
                   <h2>
-                    <span>CodeIgniter </span>website
+                    <span>Chalvas </span>Loukas
                   </h2>
-                  <p>Custom theme and development</p>
-                  <a href="https://www.lukas.gr" target="_blank">View more</a>
+                  <p>CodeIgniter Custom website</p>
+                  <a href="https://www.lukas.gr" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -301,7 +303,7 @@ class Main extends React.Component {
                   <p>
                     Radio streaming application for Amazon Alexa enabled devices
                   </p>
-                  <a href="https://www.amazon.com/gp/product/B07KP3GZ29" target="_blank">
+                  <a href="https://www.amazon.com/gp/product/B07KP3GZ29" target="_blank" rel="noreferrer">
                     View more
                   </a>
                 </figcaption>
@@ -310,10 +312,10 @@ class Main extends React.Component {
                 <img src={islandTalesImage} alt="island tales" />
                 <figcaption>
                   <h2>
-                    <span>CS-Cart </span>eshop
+                    <span>Woman </span>Fashion
                   </h2>
-                  <p>Custom theme and development</p>
-                  <a href="https://www.island-tales.com" target="_blank">View more</a>
+                  <p>CS-Cart Custom theme</p>
+                  <a href="https://www.island-tales.com" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -323,37 +325,37 @@ class Main extends React.Component {
                     <span>WooCommerce </span>eshop
                   </h2>
                   <p>WordPress / fb / ig</p>
-                  <a href="https://www.man2man.gr" target="_blank">View more</a>
+                  <a href="https://www.man2man.gr" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
                 <img src={olympusMarathonImage} alt="olympus marathon" />
                 <figcaption>
                   <h2>
-                    <span>Drupal </span>website
+                    <span>Olympus </span>Marathon
                   </h2>
-                  <p>Custom theme and modules</p>
-                  <a href="https://www.olympus-marathon.com/" target="_blank">View more</a>
+                  <p>Drupal theme and modules</p>
+                  <a href="https://www.olympus-marathon.com/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
                 <img src={halcothermImage} alt="halcotherm" />
                 <figcaption>
                   <h2>
-                    <span>CodeIgniter </span>website
+                    <span>Halcotherm </span>
                   </h2>
-                  <p>Custom theme and development</p>
-                  <a href="https://www.halcotherm.gr/" target="_blank">View more</a>
+                  <p>CodeIgniter custom website</p>
+                  <a href="https://www.halcotherm.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
                 <img src={houseMastersImage} alt="house masters" />
                 <figcaption>
                   <h2>
-                    <span>CodeIgniter </span>website
+                    <span>House</span>Masters
                   </h2>
-                  <p>Custom theme and development</p>
-                  <a href="https://housemasters.gr/" target="_blank">View more</a>
+                  <p>CodeIgniter custom website</p>
+                  <a href="https://housemasters.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -363,7 +365,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://beautyfly.gr/" target="_blank">View more</a>
+                  <a href="https://beautyfly.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -373,7 +375,7 @@ class Main extends React.Component {
                     <span>CS-Cart </span>eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://www.ekigo.gr/" target="_blank">View more</a>
+                  <a href="https://www.ekigo.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -383,17 +385,37 @@ class Main extends React.Component {
                     <span>CS-Cart </span>B2C & B2B eshop
                   </h2>
                   <p>Custom theme</p>
-                  <a href="https://stop2shop.gr/" target="_blank">View more</a>
+                  <a href="https://stop2shop.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
                 <img src={tsfImage} alt="tsf-tsotsis" />
                 <figcaption>
                   <h2>
-                    <span>CodeIgniter </span>website
+                    <span>Insurance </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://tsf-tsotsis.gr/" target="_blank">View more</a>
+                  <a href="https://tsf-tsotsis.gr/" target="_blank" rel="noreferrer">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={okruzenjeImage} alt="okruzenje" />
+                <figcaption>
+                  <h2>
+                    <span>Serbian </span>TV show
+                  </h2>
+                  <p>Drupal website</p>
+                  <a href="http://www.okruzenje.net/en" target="_blank" rel="noreferrer">View more</a>
+                </figcaption>
+              </figure>
+              <figure className="effect-ming">
+                <img src={rentCarImage} alt="rent-a-car" />
+                <figcaption>
+                  <h2>
+                    <span>Rent a Car </span>Thessaloniki
+                  </h2>
+                  <p>CodeIgniter custom website</p>
+                  <a href="http://rentacar-thessaloniki.com/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -403,7 +425,7 @@ class Main extends React.Component {
                     <span>Drupal </span>website
                   </h2>
                   <p>Custom theme</p>
-                  <a href="http://www.anpe.gr/" target="_blank">View more</a>
+                  <a href="http://www.anpe.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -413,7 +435,7 @@ class Main extends React.Component {
                     <span>WordPress </span>website
                   </h2>
                   <p>Local biological products</p>
-                  <a href="https://cicamon.gr/" target="_blank">View more</a>
+                  <a href="https://cicamon.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -423,7 +445,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://alphaparking.gr/" target="_blank">View more</a>
+                  <a href="https://alphaparking.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -433,7 +455,7 @@ class Main extends React.Component {
                     <span>WordPress </span>website
                   </h2>
                   <p>Gynecologist</p>
-                  <a href="http://mariamalandri.gr/" target="_blank">View more</a>
+                  <a href="http://mariamalandri.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -443,7 +465,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Civil Engineer</p>
-                  <a href="https://pmalandris.gr/" target="_blank">View more</a>
+                  <a href="https://pmalandris.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -453,7 +475,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="https://evgnosia-papadopoulou.gr/" target="_blank">View more</a>
+                  <a href="https://evgnosia-papadopoulou.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -463,7 +485,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="http://lawfirm.com.gr/" target="_blank">View more</a>
+                  <a href="http://lawfirm.com.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -473,7 +495,7 @@ class Main extends React.Component {
                     <span>CodeIgniter </span>website
                   </h2>
                   <p>Custom theme and development</p>
-                  <a href="http://fruitland.com.gr/" target="_blank">View more</a>
+                  <a href="http://fruitland.com.gr/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -483,7 +505,7 @@ class Main extends React.Component {
                     <span>WordPress </span>website
                   </h2>
                   <p>Blockchain website</p>
-                  <a href="https://pythagoras.systems/" target="_blank">View more</a>
+                  <a href="https://pythagoras.systems/" target="_blank" rel="noreferrer">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
