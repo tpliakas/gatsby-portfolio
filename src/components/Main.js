@@ -60,7 +60,7 @@ class Main extends React.Component {
             Development.
           </p>
           <p>
-            Currently working as a Frontend Developer using React. In my spare
+            Currently working as a Frontend Engineer using React. In my spare
             time I develop a full stack application based on MERN Stack (Mongo,
             Express, React, Node) for my Master Thesis.
           </p>
@@ -123,7 +123,7 @@ class Main extends React.Component {
             <h5>09/2019 - Current</h5>
             <hr />
             <p>
-              <span className="position">Frontend Developer</span>
+              <span className="position">Frontend Engineer</span>
               <a
                 href="https://eurobank.gr"
                 title="Eurobank"
@@ -139,17 +139,17 @@ class Main extends React.Component {
             </p>
           </p>
           <p>
-            <h3>SuperUp - eComMarketing Platform</h3>
+            <h3>SuperUp - eComMarketing Platform (Shelfy)</h3>
             <h5>12/2018 - 08/2019</h5>
             <hr />
             <p>
               <span className="position">Web Developer</span>
               <a
-                href="https://www.superup.me/"
+                href="https://shelfy.io/"
                 title="SuperUp"
                 className="website"
               >
-                superup.me
+                shelfy.io
               </a>
               ReactJS, Angular2, NodeJS, PHP, PostgreSQL,
               <br />
