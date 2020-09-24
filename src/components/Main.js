@@ -71,8 +71,8 @@ class Main extends React.Component {
           <h3>Skills</h3>
           <hr />
           <p>
-            HTML, CSS, JavaScript, Bootstrap, PHP, MySQL, NodeJS, ReactJS,
-            Angular, jQuery, Gulp, Amazon Alexa, Git, CodeIgniter, Linux, npm,
+            HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB, ExpressJS, PHP, MySQL, Bootstrap,
+            Angular, jQuery, Gulp, Material UI, Ant Design, Amazon Alexa, Git, CodeIgniter, Linux, npm,
             Docker, Drupal, Magento, Shopify, Wordpress, CS-Cart, Photoshop,
             Gimp, CPanel, Plesk.
           </p>
