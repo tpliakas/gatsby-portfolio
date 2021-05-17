@@ -119,7 +119,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Experience</h2>
           <p>
-            <h3>FRISS</h3>
+            <h3>FRISS |</h3>
+            <h4>Utrecht, Netherlands</h4>
             <h5>05/2021 - Current</h5>
             <hr />
             <p>
@@ -139,7 +140,8 @@ class Main extends React.Component {
             </p>
           </p>
           <p>
-            <h3>Eurobank</h3>
+            <h3>Eurobank |</h3>
+            <h4>Athens, Greece</h4>
             <h5>09/2019 - 04/2021</h5>
             <hr />
             <p>
@@ -159,7 +161,8 @@ class Main extends React.Component {
             </p>
           </p>
           <p>
-            <h3>SuperUp - eComMarketing Platform (Shelfy)</h3>
+            <h3>SuperUp (Shelfy) |</h3>
+            <h4>Thessaloniki, Greece</h4>
             <h5>12/2018 - 08/2019</h5>
             <hr />
             <p>
@@ -179,7 +182,8 @@ class Main extends React.Component {
             </p>
           </p>
           <p>
-            <h3>BNSPRO - Web & Mobile Applications</h3>
+            <h3>BNSPRO |</h3>
+            <h4>Thessaloniki, Greece</h4>
             <h5>12/2017 - 11/2018</h5>
             <hr />
             <p>
@@ -196,7 +200,8 @@ class Main extends React.Component {
             </p>
           </p>
           <p>
-            <h3>SOMON - Office Automation</h3>
+            <h3>SOMON |</h3>
+            <h4>Thessaloniki, Greece</h4>
             <h5>04/2015 - 11/2017</h5>
             <hr />
             <p>

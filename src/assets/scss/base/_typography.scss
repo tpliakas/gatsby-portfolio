@@ -96,10 +96,14 @@
 
 	h3 {
 		font-size: 1rem;
+		display: inline-block;
+		padding-right: 5px;
 	}
 
 	h4 {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		display: inline-block;
+		text-transform: capitalize;
 	}
 
 	h5 {
