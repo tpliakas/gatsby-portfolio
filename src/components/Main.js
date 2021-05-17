@@ -60,7 +60,7 @@ class Main extends React.Component {
             Development.
           </p>
           <p>
-            Currently working as a Frontend Engineer using React. In my spare
+            Currently working as a Frontend Engineer using Vue and React. In my spare
             time I develop a full stack application based on MERN Stack (Mongo,
             Express, React, Node) for my Master Thesis.
           </p>
@@ -119,11 +119,31 @@ class Main extends React.Component {
         >
           <h2 className="major">Experience</h2>
           <p>
-            <h3>Eurobank</h3>
-            <h5>09/2019 - Current</h5>
+            <h3>FRISS</h3>
+            <h5>05/2021 - Current</h5>
             <hr />
             <p>
-              <span className="position">Frontend Engineer</span>
+              <span className="position">Frontend Software Engineer</span>
+              <a
+                href="https://www.friss.com/"
+                title="Friss"
+                className="website"
+              >
+                friss.com
+              </a>
+              JavaScript, VueJS, D3,
+              <br />
+              Material UI, Vuetify,
+              <br />
+              Agile, Scrum.
+            </p>
+          </p>
+          <p>
+            <h3>Eurobank</h3>
+            <h5>09/2019 - 04/2021</h5>
+            <hr />
+            <p>
+              <span className="position">Frontend Software Engineer</span>
               <a
                 href="https://eurobank.gr"
                 title="Eurobank"
