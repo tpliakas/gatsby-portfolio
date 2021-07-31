@@ -125,7 +125,7 @@ class IndexPage extends React.Component {
               height="80"
               fill="#fff"
               ariaHidden="true"
-              color="#1f1234"
+              color="#222"
               viewBox="0 0 250 250"
             >
               <path d="M0 0l115 115h15l12 27 108 108V0z" />
