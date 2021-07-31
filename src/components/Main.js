@@ -4,6 +4,7 @@ import '../assets/css/demo.css'
 import '../assets/css/set2.css'
 import { FaEnvelope } from 'react-icons/fa'
 import { FaMobileAlt } from 'react-icons/fa'
+import ContactForm from './ContactForm'
 import heavyliftImage from '../images/portfolio-images/heavylift.jpg'
 import lukasImage from '../images/portfolio-images/lukas.jpg'
 import radioArtImage from '../images/portfolio-images/radio.jpg'
@@ -574,6 +575,9 @@ class Main extends React.Component {
               <FaMobileAlt className="contact-icon" />
               <span className="contact-text">+30 698689 5502</span>
             </p>
+          </div>
+          <div>
+          <ContactForm />
           </div>
           <ul className="icons">
             <li>
