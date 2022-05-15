@@ -726,14 +726,6 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <div className="contact-first">
-            <p className="contact-first-inner">
-              <FaEnvelope className="contact-icon" />
-              <span className="contact-text">thodorispliakas@gmail.com</span>
-            </p>
-            <p className="contact-first-inner">
-              <FaMobileAlt className="contact-icon" />
-              <span className="contact-text">+30 698689 5502</span>
-            </p>
           </div>
           <div>
             <ContactForm />
