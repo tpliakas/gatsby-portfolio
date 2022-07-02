@@ -2,8 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import '../assets/css/demo.css'
 import '../assets/css/set2.css'
-import { FaEnvelope } from 'react-icons/fa'
-import { FaMobileAlt } from 'react-icons/fa'
 import ContactForm from './ContactForm'
 import heavyliftImage from '../images/portfolio-images/heavylift.jpg'
 import lukasImage from '../images/portfolio-images/lukas.jpg'
@@ -122,10 +120,35 @@ class Main extends React.Component {
           <p>
             <div className="work-title">
               <div>
+                <h3>Booking<span className="lower">.com</span>, </h3>
+                <h4>Amsterdam, Netherlands</h4>
+              </div>
+              <h4>04/2022 - Current</h4>
+            </div>
+            <hr />
+            <p>
+              <span className="position">Frontend Software Engineer</span>
+              <a
+                href="https://www.booking.com/flights"
+                title="Booking"
+                className="website"
+              >
+                booking.com
+              </a>
+              Javascript, TypeScript, ReactJS,
+              <br />
+              Redux, NodeJS, PreactJS,
+              <br />
+              Agile, Scrum.
+            </p>
+          </p>
+          <p>
+            <div className="work-title">
+              <div>
                 <h3>FRISS, </h3>
                 <h4>Utrecht, Netherlands</h4>
               </div>
-              <h4>05/2021 - Current</h4>
+              <h4>05/2021 - 04/2022</h4>
             </div>
             <hr />
             <p>

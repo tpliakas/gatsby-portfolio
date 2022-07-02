@@ -163,6 +163,10 @@
 	animation: fa-beat 5s ease infinite;
 }
 
+.work-title h3 .lower {
+	text-transform: lowercase;
+}
+
 @keyframes fa-beat {
 	0% {
 		transform: scale(1);
