@@ -549,7 +549,7 @@ class Main extends React.Component {
                   </h2>
                   <p>Drupal website</p>
                   <a
-                    href="http://www.okruzenje.net/en"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
