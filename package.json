@@ -16,7 +16,7 @@
     "react-dom": "16.10.0",
     "react-helmet": "5.2.1",
     "react-icons": "3.8.0",
-    "sharp": "0.27.2"
+    "sharp": "0.32.6"
   },
   "keywords": [
     "gatsby"
