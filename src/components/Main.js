@@ -60,9 +60,10 @@ class Main extends React.Component {
           </p>
           <p>Solid experience in React and Vue ecosystems.</p>
           <p>
-            Currently working as a Frontend Engineer in travel industry. In my spare time I dive into data science, python, WebXR, three.js, microfrontends.
-            I'm passionate and always highly interested in new web technologies and I constantly keep learning and studying.
-
+            Currently working as a Frontend Engineer in travel industry. In my
+            spare time I dive into data science, python, WebXR, three.js,
+            microfrontends. I'm passionate and always highly interested in new
+            web technologies and I constantly keep learning and studying.
           </p>
           <p>
             I'm always highly interested in new web technologies and I
@@ -121,7 +122,9 @@ class Main extends React.Component {
           <p>
             <div className="work-title">
               <div>
-                <h3>Booking<span className="lower">.com</span>, </h3>
+                <h3>
+                  Booking<span className="lower">.com</span>,{' '}
+                </h3>
                 <h4>Amsterdam, Netherlands</h4>
               </div>
               <h4>04/2022 - Current</h4>
@@ -548,13 +551,7 @@ class Main extends React.Component {
                     <span>Serbian </span>TV show
                   </h2>
                   <p>Drupal website</p>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View more
-                  </a>
+                  <a href="#">View more</a>
                 </figcaption>
               </figure>
               <figure className="effect-ming">
@@ -749,8 +746,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <div className="contact-first">
-          </div>
+          <div className="contact-first"></div>
           <div>
             <ContactForm />
           </div>
