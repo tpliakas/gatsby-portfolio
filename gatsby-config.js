@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gatsby-portfolio",
+  pathPrefix: '/gatsby-portfolio',
   siteMetadata: {
     title: 'Theodore Pliakas - Portfolio',
     author: 'Theodore Pliakas',
@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-93294102-1",
+        trackingId: 'G-1V24XE6ESS',
       },
     },
     'gatsby-plugin-sass',
