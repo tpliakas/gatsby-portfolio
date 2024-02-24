@@ -89,9 +89,8 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <div
-          className={`body ${this.state.loading} ${
-            this.state.isArticleVisible ? 'is-article-visible' : ''
-          }`}
+          className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''
+            }`}
         >
           <div id="wrapper">
             <Header
